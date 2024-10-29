@@ -1,13 +1,11 @@
-function printMessage(){
-    let element = document.getElementById("print");
-    element.innerHTML = "Hello World";
-    element.style.display = "none";
+let a = false;
+let b = false;
 
-}
+console.log("A is " + a);
+console.log("B is " + b);
 
-function display(){
-    let element = document.getElementById("print");
+console.log("Not A is " + !a)
+console.log("Not B is " + !b);
 
-    element.style.display = "block";
-    element.style.color = "red";
-}
+console.log("A and B is " + (a && b));
+console.log("A or B is " + (a || b));
